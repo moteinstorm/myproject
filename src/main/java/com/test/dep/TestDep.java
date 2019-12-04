@@ -1,7 +1,11 @@
 package com.test.dep;
 
 import com.bw.test.MyTest;
-
+/**
+ * 
+ * @author zhuzg  A
+ *
+ */
 public class TestDep {
 	public static void main(String[] args) {
 		// A xie yihang
