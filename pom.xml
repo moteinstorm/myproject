@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+ <!--  <parent>
+  		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>4.2.4.RELEASE</version>
+  </parent> -->
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zhuzhiguang.day01</groupId>
+  <artifactId>day01</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <properties>
+  	<myspring.versio>4.2.4.RELEASE</myspring.versio>
+  </properties>
+  
+  
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<!-- 引入spring包  -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-context</artifactId>
+		    <version>${myspring.versio}</version>
+		    <exclusions>
+		    	<exclusion>
+		    		<groupId>org.springframework</groupId>
+		    		<artifactId>spring-beans</artifactId>
+		    	</exclusion>
+		    </exclusions>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-struts -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-struts</artifactId>
+    <version>3.0.5.RELEASE</version>
+    <scope></scope>
+    <!-- <exclusions>
+    	<exclusion>
+    		<groupId>org.springframework</groupId>
+    		<artifactId>spring-beans</artifactId>
+    	</exclusion>
+    </exclusions> -->
+    <exclusions>
+    	<exclusion>
+    		<groupId>org.springframework</groupId>
+    		<artifactId>spring-beans</artifactId>
+    	</exclusion>
+    </exclusions>
+</dependency>	
+
+<dependency>
+<groupId>com.zhuzhiguang.mymaven</groupId>
+  <artifactId>MyMavenProject</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <type>jar</type>
+  </dependency>
+  </dependencies>
+  
+</project>
