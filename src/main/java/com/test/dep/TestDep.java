@@ -9,6 +9,7 @@ public class TestDep {
 		MyTest.test();
 		// B xiugaile yihang 
 		// B dierci
+		// B dierchang
 		// B xie yihang
 	}
 }
