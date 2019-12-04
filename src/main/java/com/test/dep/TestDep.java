@@ -6,5 +6,6 @@ public class TestDep {
 	public static void main(String[] args) {
 		// A xiugai le yihang
 		MyTest.test();
+		// B xiugaile yihang 
 	}
 }
