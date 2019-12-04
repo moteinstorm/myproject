@@ -7,5 +7,6 @@ public class TestDep {
 		// A xiugai le yihang
 		MyTest.test();
 		// B xiugaile yihang 
+		// B dierci
 	}
 }
