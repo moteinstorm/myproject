@@ -12,7 +12,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <properties>
-  	<myspring.versio>4.2.4.RELEASE</myspring.versio>
+  	<myspring.versio>5.2.22.RELEASE</myspring.versio>
   </properties>
   
   
